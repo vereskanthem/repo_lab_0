@@ -22,10 +22,10 @@ void period(long i,long j,long k)
 {  long left,right,down,up,zdown,zup;
    if(i==0) left=spin[L-1][j][k];
    else left=spin[i-1][j][k];
-   if(i==L-1) right=spin[0][j][k];
-   else right=spin[i+1][j][k];
-   if(j==0) down=spin[i][L-1][k];
-   else down=spin[i][j-1][k];
+//   if(i==L-1) right=spin[0][j][k];
+//   else right=spin[i+1][j][k];
+//   if(j==0) down=spin[i][L-1][k];
+//   else down=spin[i][j-1][k];
 //   if(j==L-1) up=spin[i][0][k];
 //   else up=spin[i][j+1][k];
 //   if(k==0) zdown=0;

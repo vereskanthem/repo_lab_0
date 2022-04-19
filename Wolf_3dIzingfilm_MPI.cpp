@@ -18,8 +18,8 @@ int ProcNum,ProcRank;
 const double PI=3.14159265;
 FILE *fp,*fp1,*fp2[20],*config;
 /****************************************************/
-void period(long i,long j,long k)
-{  long left,right,down,up,zdown,zup;
+//void period(long i,long j,long k)
+//{  long left,right,down,up,zdown,zup;
 //   if(i==0) left=spin[L-1][j][k];
 //   else left=spin[i-1][j][k];
 //   if(i==L-1) right=spin[0][j][k];
@@ -32,8 +32,8 @@ void period(long i,long j,long k)
 //   else zdown=spin[i][j][k-1];
 //   if(k==L-1) zup=0;
 //   else zup=spin[i][j][k+1];
-   isum=left+right+down+up+zdown+zup;
-}
+//   isum=left+right+down+up+zdown+zup;
+//}
 /****************************************************/
 void FM_start(long m,long p)
 { long i,j,k;

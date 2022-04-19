@@ -26,8 +26,8 @@ void period(long i,long j,long k)
    else right=spin[i+1][j][k];
    if(j==0) down=spin[i][L-1][k];
    else down=spin[i][j-1][k];
-   if(j==L-1) up=spin[i][0][k];
-   else up=spin[i][j+1][k];
+//   if(j==L-1) up=spin[i][0][k];
+//   else up=spin[i][j+1][k];
 //   if(k==0) zdown=0;
 //   else zdown=spin[i][j][k-1];
 //   if(k==L-1) zup=0;
